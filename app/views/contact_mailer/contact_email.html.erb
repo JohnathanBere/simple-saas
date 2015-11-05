@@ -1,14 +1,10 @@
 <!DOCTYPE>
 <html>
     <head>
-        <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-        <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     </head>
     
     <body>
-        <div class="jumbotron text-center">
-            <h3>You have received a message from the Dev One site! The message is from <%= "#{@name}, #{@email}." %></h3>
-            <p><%= @body %></p>
-        </div>
+        <p>You have received a message from the Dev One site! The message is from <%= "#{@name}, #{@email}." %></p>
+        <p><%= @body %></p>
     </body>
 </html>
