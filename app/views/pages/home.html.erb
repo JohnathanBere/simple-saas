@@ -9,7 +9,7 @@
             <h2>Basic Membership</h2>
             <h4>Sign up for free and get basic access to the community!</h4>
             <br/>
-            <%= link_to "Sign Up For Free!", new_user_registration_path, class: 'btn-lg btn-block btn-primary' %>
+            <%= link_to "Sign Up For Free!", new_user_registration_path(plan: @basic_plan), class: 'btn-lg btn-block btn-primary' %>
         </div>
     </div>
     
@@ -17,7 +17,7 @@
         <div class="well">
             <h2>Pro Membership</h2>
             <h4>For more advanced features click here for only a small monthly fee!</h4>
-            <%= link_to "Sign Up For Only $10/month!", new_user_registration_path, class: 'btn-lg btn-block btn-success' %>
+            <%= link_to "Sign Up For Only $10/month!", new_user_registration_path(plan: @pro_plan), class: 'btn-lg btn-block btn-success' %>
         </div>
     </div>
 </div>
