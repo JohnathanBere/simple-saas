@@ -1,4 +1,23 @@
 <div class="jumbotron text-center">
-    <h1>Welcome to Dev One</h1>
-    <h3>A network where entrepreneurs and developers can meet!</h3>
+    <h1>Welcome to Student Hub</h1>
+    <h3>Network with fellow and hear the about latest enquiries</h3>
+</div>
+
+<div class="row text-center">
+    <div class="col-md-6">
+        <div class="well">
+            <h2>Basic Membership</h2>
+            <h4>Sign up for free and get basic access to the community!</h4>
+            <br/>
+            <%= link_to "Sign Up For Free!", new_user_registration_path, class: 'btn-lg btn-block btn-primary' %>
+        </div>
+    </div>
+    
+    <div class="col-md-6">
+        <div class="well">
+            <h2>Pro Membership</h2>
+            <h4>For more advanced features click here for only a small monthly fee!</h4>
+            <%= link_to "Sign Up For Only $10/month!", new_user_registration_path, class: 'btn-lg btn-block btn-success' %>
+        </div>
+    </div>
 </div>
