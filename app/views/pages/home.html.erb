@@ -12,6 +12,7 @@
                     <%= link_to "Edit Your Profile", "#", class: 'btn-lg btn-block btn-default' %>
                     <%= link_to "View Your Profile", user_path(current_user), class: 'btn-lg btn-block btn-default' %>
                 <% else %>
+                    <p>Create your profile to start networking with students as well as the latest news from lecturers.</p>
                     <%= link_to "Create a new profile", new_user_profile_path(current_user), class: 'btn-lg btn-block btn-default' %>
                 <% end %>
             </div>
