@@ -36,7 +36,7 @@ class ProfilesController < ApplicationController
     
     private
         def profile_params #Whitelists whatever is on the form! Adding more table attributes means adding them on here as well!
-            params.require(:profile).permit(:first_name, :last_name, :job_title, :phone_number, :contact_email, :description)
+            params.require(:profile).permit(:first_name, :last_name, :avatar, :job_title, :phone_number, :contact_email, :description)
         end
         
         def only_current_user
