@@ -47,6 +47,9 @@ gem 'figaro', '1.0.0'
 # Paperclip for image uploads
 gem 'paperclip', '4.2.1'
 
+# Use of autoprefixer to prefix CSS properties automatically
+gem 'autoprefixer-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
